@@ -43,7 +43,7 @@ Este projeto foi desenvolvido com:
 
 📝 Licença
 
-Este projeto está sob a licença MIT. Veja mais detalhes em [LICENSE](LICENSE).
+Este projeto está sob a licença MIT. Veja mais detalhes em https://LICENSE
 
 ---
-Desenvolvido com por por [Cezar D Silva](https://github.com/cezardsilva)
+Desenvolvido por [Cezar D Silva](https://github.com/cezardsilva)
