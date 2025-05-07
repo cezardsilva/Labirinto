@@ -24,9 +24,9 @@ Este projeto foi desenvolvido com:
    ```sh
    git clone https://github.com/cezardsilva/labirinto.git
 
-2. Abra [Labirinto](https://www.cdsconsulting.com.br/labirinto/) em um navegador.
+2. Abra <a href="https://www.cdsconsulting.com.br/labirinto/" target="_blank">Labirinto</a> em um navegador.
 
-3. Use as setas do teclado para mover-se pelo labirinto.
+3. Use as setas do teclado ou um joystick para mover-se pelo labirinto.
 
 📌 Funcionalidades
 
