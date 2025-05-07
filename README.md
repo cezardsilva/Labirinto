@@ -20,9 +20,9 @@ Este projeto foi desenvolvido com:
 
 ## 💻 Como jogar
 
-```sh
 1. Clone este repositório:
-   git clone https://github.com/seu-usuario/labirinto.git
+   ```sh
+   git clone https://github.com/cezardsilva/labirinto.git
 
 2. Abra o arquivo index.html em um navegador.
 
