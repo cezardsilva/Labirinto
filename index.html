@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./asets/favicon.ico" type="image/ico">
+    <link rel="shortcut icon" href="./asets/favicon.ico">
+    <link rel="apple-touch-icon" href="./asets/favicon.ico">
+    <title>Labirinto Aleatório</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="start-screen">
+            <h1>Labirinto Aleatório</h1>
+            <button id="start-button">Iniciar Jogo</button>
+        </div>
+        
+        <div id="end-screen">
+            <div id="end-message"></div>
+            <div id="end-score"></div>
+            <button id="restart-end-button">Jogar Novamente</button>
+        </div>
+        
+        <div id="maze-container">
+            <canvas id="maze"></canvas>
+        </div>
+        <div id="score">Pontuação: 0</div>
+        <div id="level">Nível: 1</div>
+        <div id="timer">Tempo: 30s</div>
+        <div id="start-bar-container">
+            <div id="start-bar"></div>
+        </div>
+        <div id="high-score-display"></div>
+        <div id="controls">
+            <button id="restart-btn" style="display: none;">Reiniciar</button>
+            <button id="fullscreen">Tela Cheia</button>
+            <button id="pause-btn">Pausa</button>
+            <button id="save-btn">Salvar Fase</button>
+            <button id="load-btn">Carregar Fase</button>
+        </div>
+        <!-- Adicione este novo overlay após os outros overlays -->
+        <div id="confirm-save-overlay">
+            <h2>Salvar Progresso?</h2>
+            <p>Deseja realmente salvar seu jogo atual?</p>
+            <div id="confirm-save-buttons">
+                <button id="confirm-save-btn">Sim, Salvar</button>
+                <button id="cancel-save-btn">Cancelar</button>
+            </div>
+        </div>
+        <div id="pause-overlay">
+            <h2>Jogo Pausado</h2>
+            <button id="resume-btn">Voltar ao Jogo</button>
+        </div>
+        <div id="save-overlay">
+            <h2>Fase Salva!</h2>
+            <p>Seu progresso foi salvo com sucesso.</p>
+            <button id="close-save-btn">Fechar</button>
+        </div>
+        <div id="load-overlay">
+            <h2>Fase Carregada!</h2>
+            <p id="load-message">Seu progresso foi carregado com sucesso.</p>
+            <button id="close-load-btn">Fechar</button>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>   
+</body>
+</html>
